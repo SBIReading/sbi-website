@@ -2,427 +2,1279 @@
   {
     "id": "G1",
     "title": "G1",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G1/20160423_172446.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G1/20160423_172446.jpg",
+    "images": [
+      "assets/projects/G1/20160423_172446.jpg",
+      "assets/projects/G1/20160424_104151.jpg",
+      "assets/projects/G1/20160424_104157.jpg",
+      "assets/projects/G1/20160424_104214.jpg"
+    ]
   },
   {
     "id": "G2",
     "title": "G2",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G2/20160305_105515.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G2/20160305_105515.jpg",
+    "images": [
+      "assets/projects/G2/20160305_105515.jpg",
+      "assets/projects/G2/20160305_105519.jpg",
+      "assets/projects/G2/20160306_145135.jpg",
+      "assets/projects/G2/20160306_145204.jpg",
+      "assets/projects/G2/20160306_145228.jpg",
+      "assets/projects/G2/20160306_145521.jpg",
+      "assets/projects/G2/20160313_164922.jpg",
+      "assets/projects/G2/20160313_164943.jpg",
+      "assets/projects/G2/20160313_164954.jpg"
+    ]
   },
   {
     "id": "G3",
     "title": "G3",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G3/20160229_124828.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G3/20160229_124828.jpg",
+    "images": [
+      "assets/projects/G3/20160229_124828.jpg",
+      "assets/projects/G3/20160301_131157.jpg",
+      "assets/projects/G3/20160301_131205.jpg",
+      "assets/projects/G3/20160301_131211.jpg",
+      "assets/projects/G3/20160304_163543.jpg"
+    ]
   },
   {
     "id": "G4",
     "title": "G4",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G4/20160215_165520-1.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G4/20160215_165520-1.jpg",
+    "images": [
+      "assets/projects/G4/20160215_165520-1.jpg",
+      "assets/projects/G4/20160215_165539-1.jpg",
+      "assets/projects/G4/20160215_165559-1.jpg",
+      "assets/projects/G4/20160215_165604-1.jpg",
+      "assets/projects/G4/20160217_111615-1.jpg",
+      "assets/projects/G4/20160218_150813-1.jpg",
+      "assets/projects/G4/20160218_150822-1.jpg"
+    ]
   },
   {
     "id": "G10",
     "title": "G10",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G10/DSC_0003.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G10/DSC_0003.JPG",
+    "images": [
+      "assets/projects/G10/DSC_0003.JPG",
+      "assets/projects/G10/DSC_0004.JPG",
+      "assets/projects/G10/DSC_0010.JPG"
+    ]
   },
   {
     "id": "G11",
     "title": "G11",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G11/20160309_103742.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G11/20160309_103742.jpg",
+    "images": [
+      "assets/projects/G11/20160309_103742.jpg",
+      "assets/projects/G11/20160309_103746.jpg",
+      "assets/projects/G11/20160309_103809.jpg",
+      "assets/projects/G11/20160322_134829.jpg",
+      "assets/projects/G11/20160322_134833.jpg",
+      "assets/projects/G11/20160322_134858.jpg",
+      "assets/projects/G11/20160322_134917.jpg",
+      "assets/projects/G11/20160408_150036.jpg",
+      "assets/projects/G11/20160408_150041.jpg",
+      "assets/projects/G11/20160418_093742.jpg",
+      "assets/projects/G11/20160418_093746.jpg",
+      "assets/projects/G11/20160418_135104.jpg",
+      "assets/projects/G11/20160418_135125.jpg",
+      "assets/projects/G11/20160418_135159.jpg",
+      "assets/projects/G11/DSC_0001.JPG"
+    ]
   },
   {
     "id": "G12",
     "title": "G12",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G12/DSC_0090.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G12/DSC_0090.JPG",
+    "images": [
+      "assets/projects/G12/DSC_0090.JPG",
+      "assets/projects/G12/DSC_0094.JPG",
+      "assets/projects/G12/DSC_0095.JPG",
+      "assets/projects/G12/DSC_0096.JPG",
+      "assets/projects/G12/DSC_0097.JPG",
+      "assets/projects/G12/DSC_0104.JPG",
+      "assets/projects/G12/DSC_0105.JPG",
+      "assets/projects/G12/DSC_0106.JPG",
+      "assets/projects/G12/DSC_0107.JPG"
+    ]
   },
   {
     "id": "G13",
     "title": "G13",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G13/DSC_0118.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G13/DSC_0118.JPG",
+    "images": [
+      "assets/projects/G13/DSC_0118.JPG",
+      "assets/projects/G13/DSC_0119.JPG",
+      "assets/projects/G13/DSC_0122.JPG",
+      "assets/projects/G13/DSC_0123.JPG",
+      "assets/projects/G13/DSC_0124.JPG",
+      "assets/projects/G13/DSC_0125.JPG",
+      "assets/projects/G13/DSC_0126.JPG"
+    ]
   },
   {
     "id": "G14",
     "title": "G14",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G14/DSC_0113.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G14/DSC_0113.JPG",
+    "images": [
+      "assets/projects/G14/DSC_0113.JPG",
+      "assets/projects/G14/DSC_0114.JPG",
+      "assets/projects/G14/DSC_0115.JPG",
+      "assets/projects/G14/DSC_0116.JPG"
+    ]
   },
   {
     "id": "G15",
     "title": "G15",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G15/DSC_0129.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G15/DSC_0129.JPG",
+    "images": [
+      "assets/projects/G15/DSC_0129.JPG",
+      "assets/projects/G15/DSC_0134.JPG",
+      "assets/projects/G15/DSC_0136.JPG",
+      "assets/projects/G15/DSC_0138.JPG",
+      "assets/projects/G15/DSC_0139.JPG",
+      "assets/projects/G15/IMG-1471261208818-V.jpg",
+      "assets/projects/G15/received_1035924453173164.jpeg",
+      "assets/projects/G15/received_1035924489839827.jpeg",
+      "assets/projects/G15/received_1035924499839826.jpeg",
+      "assets/projects/G15/received_1035924529839823.jpeg",
+      "assets/projects/G15/received_1035924573173152.jpeg",
+      "assets/projects/G15/received_1035925306506412.jpeg"
+    ]
   },
   {
     "id": "G16",
     "title": "G16",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G16/DSC_0099.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G16/DSC_0099.JPG",
+    "images": [
+      "assets/projects/G16/DSC_0099.JPG",
+      "assets/projects/G16/DSC_0102.JPG",
+      "assets/projects/G16/DSC_0103.JPG"
+    ]
   },
   {
     "id": "G17",
     "title": "G17",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G17/DSC_0518.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G17/DSC_0518.JPG",
+    "images": [
+      "assets/projects/G17/DSC_0518.JPG",
+      "assets/projects/G17/DSC_0520.JPG",
+      "assets/projects/G17/DSC_0521.JPG",
+      "assets/projects/G17/DSC_0522.JPG",
+      "assets/projects/G17/received_1863310307238324.jpeg",
+      "assets/projects/G17/received_1863310310571657.jpeg",
+      "assets/projects/G17/received_1863310323904989.jpeg"
+    ]
   },
   {
     "id": "G18",
     "title": "G18",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G18/DSC_0523.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G18/DSC_0523.JPG",
+    "images": [
+      "assets/projects/G18/DSC_0523.JPG",
+      "assets/projects/G18/DSC_0524.JPG",
+      "assets/projects/G18/DSC_0525.JPG",
+      "assets/projects/G18/DSC_0526.JPG",
+      "assets/projects/G18/DSC_0527.JPG",
+      "assets/projects/G18/DSC_0528.JPG",
+      "assets/projects/G18/DSC_0529.JPG",
+      "assets/projects/G18/DSC_0530.JPG",
+      "assets/projects/G18/DSC_0531.JPG",
+      "assets/projects/G18/DSC_0532.JPG",
+      "assets/projects/G18/DSC_0533.JPG",
+      "assets/projects/G18/DSC_0534.JPG"
+    ]
   },
   {
     "id": "G19",
     "title": "G19",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G19/DSC_0538.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G19/DSC_0538.JPG",
+    "images": [
+      "assets/projects/G19/DSC_0538.JPG",
+      "assets/projects/G19/DSC_0539.JPG",
+      "assets/projects/G19/DSC_0540.JPG",
+      "assets/projects/G19/DSC_0541.JPG",
+      "assets/projects/G19/DSC_0543.JPG",
+      "assets/projects/G19/DSC_0552.JPG",
+      "assets/projects/G19/DSC_0553.JPG",
+      "assets/projects/G19/DSC_0554.JPG",
+      "assets/projects/G19/DSC_0555.JPG",
+      "assets/projects/G19/DSC_0556.JPG",
+      "assets/projects/G19/DSC_0557.JPG",
+      "assets/projects/G19/DSC_0558.JPG"
+    ]
   },
   {
     "id": "G20",
     "title": "G20",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G20/DSC_0559.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G20/DSC_0559.JPG",
+    "images": [
+      "assets/projects/G20/DSC_0559.JPG",
+      "assets/projects/G20/DSC_0560.JPG",
+      "assets/projects/G20/DSC_0561.JPG",
+      "assets/projects/G20/DSC_0562.JPG",
+      "assets/projects/G20/DSC_0578.JPG",
+      "assets/projects/G20/DSC_0579.JPG",
+      "assets/projects/G20/DSC_0580.JPG",
+      "assets/projects/G20/DSC_0581.JPG",
+      "assets/projects/G20/DSC_0582.JPG",
+      "assets/projects/G20/DSC_0583.JPG",
+      "assets/projects/G20/DSC_0584.JPG",
+      "assets/projects/G20/DSC_0585.JPG"
+    ]
   },
   {
     "id": "G21",
     "title": "G21",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G21/DSC_0578.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G21/DSC_0578.JPG",
+    "images": [
+      "assets/projects/G21/DSC_0578.JPG",
+      "assets/projects/G21/DSC_0579.JPG",
+      "assets/projects/G21/DSC_0580.JPG",
+      "assets/projects/G21/DSC_0581.JPG",
+      "assets/projects/G21/DSC_0586.JPG",
+      "assets/projects/G21/DSC_0587.JPG"
+    ]
   },
   {
     "id": "G22",
     "title": "G22",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G22/DSC_0583.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G22/DSC_0583.JPG",
+    "images": [
+      "assets/projects/G22/DSC_0583.JPG",
+      "assets/projects/G22/DSC_0584.JPG"
+    ]
   },
   {
     "id": "G23",
     "title": "G23",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G23/DSC_0585.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G23/DSC_0585.JPG",
+    "images": [
+      "assets/projects/G23/DSC_0585.JPG",
+      "assets/projects/G23/DSC_0587.JPG",
+      "assets/projects/G23/DSC_0588.JPG",
+      "assets/projects/G23/DSC_0589.JPG",
+      "assets/projects/G23/DSC_0590.JPG",
+      "assets/projects/G23/DSC_0591.JPG",
+      "assets/projects/G23/DSC_0592.JPG",
+      "assets/projects/G23/DSC_0593.JPG",
+      "assets/projects/G23/DSC_0594.JPG",
+      "assets/projects/G23/DSC_0595.JPG",
+      "assets/projects/G23/DSC_0596.JPG",
+      "assets/projects/G23/DSC_0597.JPG",
+      "assets/projects/G23/DSC_0598.JPG",
+      "assets/projects/G23/DSC_0599.JPG",
+      "assets/projects/G23/DSC_0600.JPG"
+    ]
   },
   {
     "id": "G24",
     "title": "G24",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G24/DSC_0591.JPG"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G24/DSC_0591.JPG",
+    "images": [
+      "assets/projects/G24/DSC_0591.JPG",
+      "assets/projects/G24/DSC_0592.JPG",
+      "assets/projects/G24/DSC_0593-1.JPG",
+      "assets/projects/G24/DSC_0594-1.JPG",
+      "assets/projects/G24/DSC_0595.JPG",
+      "assets/projects/G24/DSC_0597.JPG",
+      "assets/projects/G24/DSC_0598.JPG",
+      "assets/projects/G24/DSC_0599.JPG",
+      "assets/projects/G24/DSC_0604.JPG",
+      "assets/projects/G24/DSC_0605.JPG",
+      "assets/projects/G24/DSC_0606.JPG",
+      "assets/projects/G24/DSC_0607.JPG",
+      "assets/projects/G24/DSC_0608.JPG",
+      "assets/projects/G24/DSC_0609.JPG",
+      "assets/projects/G24/DSC_0616.JPG",
+      "assets/projects/G24/DSC_0618.JPG",
+      "assets/projects/G24/DSC_0620.JPG",
+      "assets/projects/G24/DSC_0621.JPG",
+      "assets/projects/G24/DSC_0622.JPG"
+    ]
   },
   {
     "id": "G25",
     "title": "G25",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G25/20170810_195157.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G25/20170810_195157.jpg",
+    "images": [
+      "assets/projects/G25/20170810_195157.jpg",
+      "assets/projects/G25/20170810_195342.jpg",
+      "assets/projects/G25/20170814_091237.jpg",
+      "assets/projects/G25/20170814_091252.jpg",
+      "assets/projects/G25/20170814_091305.jpg",
+      "assets/projects/G25/20170817_150412.jpg",
+      "assets/projects/G25/20170817_150425.jpg",
+      "assets/projects/G25/20170817_150451.jpg",
+      "assets/projects/G25/20170828_162033.jpg",
+      "assets/projects/G25/20170829_161628.jpg",
+      "assets/projects/G25/20170829_161644.jpg",
+      "assets/projects/G25/20170829_161703.jpg",
+      "assets/projects/G25/20170829_161707.jpg",
+      "assets/projects/G25/20170829_161727.jpg",
+      "assets/projects/G25/20170829_161741.jpg",
+      "assets/projects/G25/20170829_161745.jpg",
+      "assets/projects/G25/20170913_184033.jpg",
+      "assets/projects/G25/20170913_184043.jpg",
+      "assets/projects/G25/20170913_184059.jpg",
+      "assets/projects/G25/20170913_184111.jpg",
+      "assets/projects/G25/20170913_184128.jpg",
+      "assets/projects/G25/20170913_184130.jpg"
+    ]
   },
   {
     "id": "G26",
     "title": "G26",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G26/1.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G26/1.jpg",
+    "images": [
+      "assets/projects/G26/1.jpg",
+      "assets/projects/G26/10.jpg",
+      "assets/projects/G26/11.jpg",
+      "assets/projects/G26/12.jpg",
+      "assets/projects/G26/2.jpg",
+      "assets/projects/G26/3.jpg",
+      "assets/projects/G26/4.jpg",
+      "assets/projects/G26/5.jpg",
+      "assets/projects/G26/6.jpg",
+      "assets/projects/G26/7.jpg",
+      "assets/projects/G26/8.jpg",
+      "assets/projects/G26/9.jpg"
+    ]
   },
   {
     "id": "G27",
     "title": "G27",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G27/20171026_153657.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G27/20171026_153657.jpg",
+    "images": [
+      "assets/projects/G27/20171026_153657.jpg",
+      "assets/projects/G27/20171026_153712.jpg",
+      "assets/projects/G27/20171026_153721.jpg",
+      "assets/projects/G27/20171026_153749.jpg"
+    ]
   },
   {
     "id": "G28",
     "title": "G28",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G28/20180215_101342.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G28/20180215_101342.jpg",
+    "images": [
+      "assets/projects/G28/20180215_101342.jpg",
+      "assets/projects/G28/20180215_101354-1.jpg",
+      "assets/projects/G28/20180215_101402-1.jpg",
+      "assets/projects/G28/20180215_101421-1.jpg",
+      "assets/projects/G28/20180215_101424.jpg"
+    ]
   },
   {
     "id": "G29",
     "title": "G29",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G29/20180228_093359.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G29/20180228_093359.jpg",
+    "images": [
+      "assets/projects/G29/20180228_093359.jpg",
+      "assets/projects/G29/20180228_093423.jpg",
+      "assets/projects/G29/20180228_093431.jpg",
+      "assets/projects/G29/20180228_093445.jpg",
+      "assets/projects/G29/20180228_093456.jpg",
+      "assets/projects/G29/20180228_093513.jpg",
+      "assets/projects/G29/20180228_093517.jpg",
+      "assets/projects/G29/20180322_160928.jpg",
+      "assets/projects/G29/20180325_141154.jpg",
+      "assets/projects/G29/20180325_141207.jpg",
+      "assets/projects/G29/20180325_141222.jpg",
+      "assets/projects/G29/20180325_141227.jpg",
+      "assets/projects/G29/20180325_141239.jpg"
+    ]
   },
   {
     "id": "G31",
     "title": "G31",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G31/20181013_093226.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G31/20181013_093226.jpg",
+    "images": [
+      "assets/projects/G31/20181013_093226.jpg",
+      "assets/projects/G31/20181013_093230.jpg",
+      "assets/projects/G31/20181013_093251.jpg"
+    ]
   },
   {
     "id": "G32",
     "title": "G32",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G32/20181024_083351.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G32/20181024_083351.jpg",
+    "images": [
+      "assets/projects/G32/20181024_083351.jpg",
+      "assets/projects/G32/20181024_083358.jpg",
+      "assets/projects/G32/20181024_083405.jpg",
+      "assets/projects/G32/20181024_083419.jpg",
+      "assets/projects/G32/20181024_083436.jpg",
+      "assets/projects/G32/20181213_121222.jpg",
+      "assets/projects/G32/20181213_121235.jpg",
+      "assets/projects/G32/20181213_121248.jpg",
+      "assets/projects/G32/20181213_121326.jpg",
+      "assets/projects/G32/20181213_121330.jpg",
+      "assets/projects/G32/20181213_121343.jpg",
+      "assets/projects/G32/20181213_121404.jpg"
+    ]
   },
   {
     "id": "G33",
     "title": "G33",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G33/1.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G33/1.jpg",
+    "images": [
+      "assets/projects/G33/1.jpg",
+      "assets/projects/G33/10.jpg",
+      "assets/projects/G33/11.jpg",
+      "assets/projects/G33/12.jpg",
+      "assets/projects/G33/13.jpg",
+      "assets/projects/G33/14.jpg",
+      "assets/projects/G33/15.jpg",
+      "assets/projects/G33/16.jpg",
+      "assets/projects/G33/17.jpg",
+      "assets/projects/G33/18.jpg",
+      "assets/projects/G33/19.jpg",
+      "assets/projects/G33/2.jpg",
+      "assets/projects/G33/20.jpg",
+      "assets/projects/G33/21.jpg",
+      "assets/projects/G33/22.jpg",
+      "assets/projects/G33/23.jpg",
+      "assets/projects/G33/24.jpg",
+      "assets/projects/G33/25.jpg",
+      "assets/projects/G33/26.jpg",
+      "assets/projects/G33/27.jpg",
+      "assets/projects/G33/28.jpg",
+      "assets/projects/G33/29.jpg",
+      "assets/projects/G33/3.jpg",
+      "assets/projects/G33/30.jpg",
+      "assets/projects/G33/31.jpg",
+      "assets/projects/G33/32.jpg",
+      "assets/projects/G33/33.jpg",
+      "assets/projects/G33/34.jpg",
+      "assets/projects/G33/35.jpg",
+      "assets/projects/G33/4.jpg",
+      "assets/projects/G33/5.jpg",
+      "assets/projects/G33/6.jpg",
+      "assets/projects/G33/7.jpg",
+      "assets/projects/G33/8.jpg",
+      "assets/projects/G33/9.jpg"
+    ]
   },
   {
     "id": "G34",
     "title": "G34",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G34/20190403_082936.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G34/20190403_082936.jpg",
+    "images": [
+      "assets/projects/G34/20190403_082936.jpg",
+      "assets/projects/G34/20190403_082948.jpg",
+      "assets/projects/G34/20190418_170839.jpg",
+      "assets/projects/G34/20190418_170851.jpg",
+      "assets/projects/G34/20190418_170900.jpg",
+      "assets/projects/G34/20190418_170903.jpg",
+      "assets/projects/G34/20190418_170924.jpg",
+      "assets/projects/G34/20190418_170939.jpg",
+      "assets/projects/G34/20190419_093125.jpg",
+      "assets/projects/G34/20190419_093140.jpg",
+      "assets/projects/G34/20190419_093159.jpg"
+    ]
   },
   {
     "id": "G35",
     "title": "G35",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G35/20190425_112516.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G35/20190425_112516.jpg",
+    "images": [
+      "assets/projects/G35/20190425_112516.jpg",
+      "assets/projects/G35/20190425_112537.jpg",
+      "assets/projects/G35/20190425_112539.jpg",
+      "assets/projects/G35/20190702_091308.jpg",
+      "assets/projects/G35/20190702_091328.jpg",
+      "assets/projects/G35/20190702_091337.jpg",
+      "assets/projects/G35/20190702_091346.jpg",
+      "assets/projects/G35/20190702_091400.jpg",
+      "assets/projects/G35/20190702_091415.jpg",
+      "assets/projects/G35/20190702_091531.jpg",
+      "assets/projects/G35/20190702_091550.jpg",
+      "assets/projects/G35/20190702_091657.jpg",
+      "assets/projects/G35/20190702_091707.jpg",
+      "assets/projects/G35/20190702_091727.jpg",
+      "assets/projects/G35/20190702_091734.jpg",
+      "assets/projects/G35/20190702_091741.jpg",
+      "assets/projects/G35/20190702_091814.jpg",
+      "assets/projects/G35/20190702_091817.jpg"
+    ]
   },
   {
     "id": "G36",
     "title": "G36",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G36/20190506_172040.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G36/20190506_172040.jpg",
+    "images": [
+      "assets/projects/G36/20190506_172040.jpg",
+      "assets/projects/G36/20190506_172100.jpg"
+    ]
   },
   {
     "id": "G37",
     "title": "G37",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G37/20190603_091052.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G37/20190603_091052.jpg",
+    "images": [
+      "assets/projects/G37/20190603_091052.jpg",
+      "assets/projects/G37/20190603_091103.jpg",
+      "assets/projects/G37/20190603_091111.jpg",
+      "assets/projects/G37/20190612_133522.jpg",
+      "assets/projects/G37/20190612_133526.jpg",
+      "assets/projects/G37/20190612_133537.jpg",
+      "assets/projects/G37/20190614_152356.jpg",
+      "assets/projects/G37/20190614_152405.jpg",
+      "assets/projects/G37/20190614_152421.jpg",
+      "assets/projects/G37/20190614_152425.jpg",
+      "assets/projects/G37/20190614_152443.jpg",
+      "assets/projects/G37/20190614_152450.jpg",
+      "assets/projects/G37/20190614_152500.jpg",
+      "assets/projects/G37/20190816_130636.jpg",
+      "assets/projects/G37/20190816_130642.jpg"
+    ]
   },
   {
     "id": "G38",
     "title": "G38",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G38/20190717_081845.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G38/20190717_081845.jpg",
+    "images": [
+      "assets/projects/G38/20190717_081845.jpg",
+      "assets/projects/G38/20190717_081855.jpg",
+      "assets/projects/G38/20190717_085116.jpg",
+      "assets/projects/G38/20190721_133542.jpg",
+      "assets/projects/G38/20190721_133545.jpg",
+      "assets/projects/G38/20190722_172332.jpg",
+      "assets/projects/G38/20190724_123055.jpg",
+      "assets/projects/G38/20190729_144213.jpg",
+      "assets/projects/G38/20190729_144221.jpg",
+      "assets/projects/G38/20190729_144241.jpg",
+      "assets/projects/G38/20190731_161436.jpg",
+      "assets/projects/G38/20190731_161442.jpg"
+    ]
   },
   {
     "id": "G39",
     "title": "G39",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G39/20190806_081542.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G39/20190806_081542.jpg",
+    "images": [
+      "assets/projects/G39/20190806_081542.jpg",
+      "assets/projects/G39/20190806_081551.jpg",
+      "assets/projects/G39/20190806_081604.jpg",
+      "assets/projects/G39/20190812_124806.jpg",
+      "assets/projects/G39/20190812_124820.jpg",
+      "assets/projects/G39/20190812_124830.jpg",
+      "assets/projects/G39/20190812_124842.jpg",
+      "assets/projects/G39/IMG-20190806-WA0000.jpg"
+    ]
   },
   {
     "id": "G40",
     "title": "G40",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G40/20190723_093346.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G40/20190723_093346.jpg",
+    "images": [
+      "assets/projects/G40/20190723_093346.jpg",
+      "assets/projects/G40/20190723_093410.jpg",
+      "assets/projects/G40/20190723_093414.jpg",
+      "assets/projects/G40/20190731_082411.jpg",
+      "assets/projects/G40/20190731_082419.jpg",
+      "assets/projects/G40/20190731_121856.jpg",
+      "assets/projects/G40/20190731_121912.jpg",
+      "assets/projects/G40/20190731_121931.jpg"
+    ]
   },
   {
     "id": "G41",
     "title": "G41",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G41/20190831_091707.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G41/20190831_091707.jpg",
+    "images": [
+      "assets/projects/G41/20190831_091707.jpg",
+      "assets/projects/G41/20190831_091708.jpg",
+      "assets/projects/G41/20190906_075817.jpg",
+      "assets/projects/G41/20190906_075823.jpg"
+    ]
   },
   {
     "id": "G42",
     "title": "G42",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G42/20190920_105045.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G42/20190920_105045.jpg",
+    "images": [
+      "assets/projects/G42/20190920_105045.jpg",
+      "assets/projects/G42/20190920_105056.jpg",
+      "assets/projects/G42/20190920_151747.jpg",
+      "assets/projects/G42/20191021_143657.jpg",
+      "assets/projects/G42/20191021_143706.jpg",
+      "assets/projects/G42/20191021_143714.jpg",
+      "assets/projects/G42/20191022_140810.jpg"
+    ]
   },
   {
     "id": "G43",
     "title": "G43",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G43/20191024_093657.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G43/20191024_093657.jpg",
+    "images": [
+      "assets/projects/G43/20191024_093657.jpg",
+      "assets/projects/G43/20191024_093703.jpg",
+      "assets/projects/G43/20191024_093716.jpg",
+      "assets/projects/G43/20191024_093738.jpg",
+      "assets/projects/G43/20191024_093742.jpg",
+      "assets/projects/G43/20191024_093755.jpg",
+      "assets/projects/G43/20191109_130022.jpg",
+      "assets/projects/G43/20191125_104244.jpg",
+      "assets/projects/G43/20191125_104305.jpg",
+      "assets/projects/G43/20191125_104309.jpg",
+      "assets/projects/G43/20191125_104322.jpg",
+      "assets/projects/G43/20191125_104332.jpg",
+      "assets/projects/G43/20191125_104359.jpg",
+      "assets/projects/G43/20191125_104403.jpg",
+      "assets/projects/G43/20191129_112329.jpg",
+      "assets/projects/G43/20191129_112349.jpg",
+      "assets/projects/G43/20191129_112418.jpg",
+      "assets/projects/G43/20191129_112422.jpg",
+      "assets/projects/G43/20191129_112444.jpg",
+      "assets/projects/G43/20191129_112454.jpg",
+      "assets/projects/G43/20191129_112507.jpg",
+      "assets/projects/G43/20191129_112509.jpg",
+      "assets/projects/G43/20191129_112522.jpg"
+    ]
   },
   {
     "id": "G44",
     "title": "G44",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G44/20191201_133621.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G44/20191201_133621.jpg",
+    "images": [
+      "assets/projects/G44/20191201_133621.jpg",
+      "assets/projects/G44/20191203_120008.jpg",
+      "assets/projects/G44/20191203_120013.jpg",
+      "assets/projects/G44/20191203_120028.jpg",
+      "assets/projects/G44/20191203_120037.jpg",
+      "assets/projects/G44/20191211_125640.jpg",
+      "assets/projects/G44/20191211_125701.jpg",
+      "assets/projects/G44/20200201_120058.jpg",
+      "assets/projects/G44/20200201_120110.jpg",
+      "assets/projects/G44/20200201_120134.jpg",
+      "assets/projects/G44/20200201_120140.jpg",
+      "assets/projects/G44/20200201_120209.jpg",
+      "assets/projects/G44/20200201_120217.jpg",
+      "assets/projects/G44/20200201_120232.jpg",
+      "assets/projects/G44/20200201_120304.jpg",
+      "assets/projects/G44/20200201_120323.jpg"
+    ]
   },
   {
     "id": "G45",
     "title": "G45",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G45/20200228_134355.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G45/20200228_134355.jpg",
+    "images": [
+      "assets/projects/G45/20200228_134355.jpg"
+    ]
   },
   {
     "id": "G46",
     "title": "G46",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G46/20200528_175919.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G46/20200528_175919.jpg",
+    "images": [
+      "assets/projects/G46/20200528_175919.jpg",
+      "assets/projects/G46/20200528_175925.jpg",
+      "assets/projects/G46/20200528_175945.jpg",
+      "assets/projects/G46/20200528_180007.jpg",
+      "assets/projects/G46/20200528_180010.jpg",
+      "assets/projects/G46/20200528_180022.jpg",
+      "assets/projects/G46/20200528_180039.jpg"
+    ]
   },
   {
     "id": "G47",
     "title": "G47",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G47/20200604_154947.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G47/20200604_154947.jpg",
+    "images": [
+      "assets/projects/G47/20200604_154947.jpg",
+      "assets/projects/G47/20200604_154950.jpg",
+      "assets/projects/G47/20200604_154953.jpg",
+      "assets/projects/G47/20200604_155003.jpg",
+      "assets/projects/G47/20200604_155012.jpg",
+      "assets/projects/G47/20200604_155015.jpg",
+      "assets/projects/G47/20200604_155031.jpg",
+      "assets/projects/G47/20200604_155042.jpg",
+      "assets/projects/G47/20200714_120143.jpg",
+      "assets/projects/G47/20200714_120149.jpg",
+      "assets/projects/G47/20200714_120156.jpg",
+      "assets/projects/G47/20200716_134015.jpg",
+      "assets/projects/G47/20200716_134019.jpg",
+      "assets/projects/G47/20200716_134032.jpg",
+      "assets/projects/G47/20200716_134048.jpg",
+      "assets/projects/G47/20200716_134055.jpg",
+      "assets/projects/G47/20200716_134101.jpg",
+      "assets/projects/G47/20200716_134120.jpg"
+    ]
   },
   {
     "id": "G48",
     "title": "G48",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G48/20200702_153736.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G48/20200702_153736.jpg",
+    "images": [
+      "assets/projects/G48/20200702_153736.jpg",
+      "assets/projects/G48/20200702_153745.jpg",
+      "assets/projects/G48/20200702_153801.jpg",
+      "assets/projects/G48/20200702_153813.jpg",
+      "assets/projects/G48/20200702_160427.jpg",
+      "assets/projects/G48/20200703_115004.jpg",
+      "assets/projects/G48/20200707_170150.jpg",
+      "assets/projects/G48/20200707_170153.jpg",
+      "assets/projects/G48/20200718_105539.jpg",
+      "assets/projects/G48/20200718_105550.jpg",
+      "assets/projects/G48/20200718_111717.jpg",
+      "assets/projects/G48/20200718_111727.jpg",
+      "assets/projects/G48/20200718_111741.jpg",
+      "assets/projects/G48/20200718_111747.jpg",
+      "assets/projects/G48/20200718_111753.jpg"
+    ]
   },
   {
     "id": "G49",
     "title": "G49",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G49/20200722_155248.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G49/20200722_155248.jpg",
+    "images": [
+      "assets/projects/G49/20200722_155248.jpg",
+      "assets/projects/G49/20200724_095206.jpg",
+      "assets/projects/G49/20200724_095212.jpg",
+      "assets/projects/G49/20200724_095217.jpg"
+    ]
   },
   {
     "id": "G50",
     "title": "G50",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G50/20200817_121830.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G50/20200817_121830.jpg",
+    "images": [
+      "assets/projects/G50/20200817_121830.jpg",
+      "assets/projects/G50/20200817_121850.jpg",
+      "assets/projects/G50/20200817_121853.jpg",
+      "assets/projects/G50/20200914_130644.jpg",
+      "assets/projects/G50/20200914_130729.jpg",
+      "assets/projects/G50/20200914_130744.jpg",
+      "assets/projects/G50/20200914_130751.jpg",
+      "assets/projects/G50/20200914_130755.jpg",
+      "assets/projects/G50/20200914_130807.jpg",
+      "assets/projects/G50/20200914_130826.jpg",
+      "assets/projects/G50/20200914_130833.jpg"
+    ]
   },
   {
     "id": "G51",
     "title": "G51",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G51/20200921_101355.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G51/20200921_101355.jpg",
+    "images": [
+      "assets/projects/G51/20200921_101355.jpg",
+      "assets/projects/G51/20200921_101409.jpg",
+      "assets/projects/G51/20200921_101414.jpg",
+      "assets/projects/G51/20200921_101431.jpg",
+      "assets/projects/G51/20200921_101453.jpg",
+      "assets/projects/G51/20200921_101511.jpg",
+      "assets/projects/G51/20200921_150250.jpg",
+      "assets/projects/G51/20200921_155604.jpg",
+      "assets/projects/G51/20200921_155616.jpg",
+      "assets/projects/G51/20200921_155617.jpg",
+      "assets/projects/G51/20200924_142037.jpg",
+      "assets/projects/G51/20201009_130927.jpg",
+      "assets/projects/G51/20201009_130937.jpg",
+      "assets/projects/G51/20201109_083800.jpg",
+      "assets/projects/G51/20201109_083832.jpg",
+      "assets/projects/G51/20201109_083834.jpg",
+      "assets/projects/G51/20201109_083856.jpg",
+      "assets/projects/G51/20201109_083908.jpg"
+    ]
   },
   {
     "id": "G52",
     "title": "G52",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G52/20201210_153030.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G52/20201210_153030.jpg",
+    "images": [
+      "assets/projects/G52/20201210_153030.jpg",
+      "assets/projects/G52/20201210_153034.jpg",
+      "assets/projects/G52/20201210_153040.jpg"
+    ]
   },
   {
     "id": "G53",
     "title": "G53",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G53/20210121_090735.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G53/20210121_090735.jpg",
+    "images": [
+      "assets/projects/G53/20210121_090735.jpg",
+      "assets/projects/G53/20210121_090748.jpg",
+      "assets/projects/G53/20210121_090809.jpg",
+      "assets/projects/G53/20210121_090823.jpg",
+      "assets/projects/G53/20210121_090826.jpg",
+      "assets/projects/G53/20210202_162414.jpg",
+      "assets/projects/G53/20210202_162430.jpg",
+      "assets/projects/G53/20210202_162441.jpg",
+      "assets/projects/G53/20210211_151717.jpg",
+      "assets/projects/G53/20210211_151720.jpg",
+      "assets/projects/G53/20210223_151907.jpg",
+      "assets/projects/G53/20210223_151916.jpg",
+      "assets/projects/G53/20210305_170043.jpg",
+      "assets/projects/G53/20210305_170047.jpg",
+      "assets/projects/G53/20210305_170058.jpg",
+      "assets/projects/G53/20210319_165625.jpg",
+      "assets/projects/G53/20210319_165637.jpg",
+      "assets/projects/G53/20210319_165639.jpg",
+      "assets/projects/G53/20210319_165641.jpg",
+      "assets/projects/G53/20210325_165558.jpg",
+      "assets/projects/G53/20210325_165631.jpg",
+      "assets/projects/G53/20210325_174010.jpg",
+      "assets/projects/G53/20210325_174027.jpg"
+    ]
   },
   {
     "id": "G53Front",
     "title": "G53front",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G53Front/20210401_140836.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G53Front/20210401_140836.jpg",
+    "images": [
+      "assets/projects/G53Front/20210401_140836.jpg",
+      "assets/projects/G53Front/20210401_140844.jpg",
+      "assets/projects/G53Front/20210401_140856.jpg",
+      "assets/projects/G53Front/20210401_140922.jpg",
+      "assets/projects/G53Front/20210422_093937.jpg",
+      "assets/projects/G53Front/20210611_132528.jpg",
+      "assets/projects/G53Front/20210611_132534.jpg",
+      "assets/projects/G53Front/20210611_132547.jpg",
+      "assets/projects/G53Front/20210611_132553.jpg",
+      "assets/projects/G53Front/20210611_132609.jpg",
+      "assets/projects/G53Front/20210611_132611.jpg"
+    ]
   },
   {
     "id": "g54",
     "title": "G54",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g54/2025-10-24 at 16.25.33 (1).jpeg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g54/2025-10-24 at 16.25.33 (1).jpeg",
+    "images": [
+      "assets/projects/g54/2025-10-24 at 16.25.33 (1).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (10).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (2).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (3).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (4).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (5).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (6).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (7).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (8).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.33 (9).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.34 (1).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.34 (2).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.34 (3).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.34 (4).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.34 (5).jpeg",
+      "assets/projects/g54/2025-10-24 at 16.25.34.jpeg"
+    ]
   },
   {
     "id": "g55",
     "title": "G55",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g55/1.jpeg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g55/1.jpeg",
+    "images": [
+      "assets/projects/g55/1.jpeg",
+      "assets/projects/g55/10.jpeg",
+      "assets/projects/g55/11.jpeg",
+      "assets/projects/g55/12.jpeg",
+      "assets/projects/g55/13.jpeg",
+      "assets/projects/g55/14.jpeg",
+      "assets/projects/g55/2.jpeg",
+      "assets/projects/g55/3.jpeg",
+      "assets/projects/g55/4.jpeg",
+      "assets/projects/g55/5.jpeg",
+      "assets/projects/g55/6.jpeg",
+      "assets/projects/g55/7.jpeg",
+      "assets/projects/g55/8.jpeg",
+      "assets/projects/g55/9.jpeg"
+    ]
   },
   {
     "id": "G56",
     "title": "G56",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G56/20211019_094713.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G56/20211019_094713.jpg",
+    "images": [
+      "assets/projects/G56/20211019_094713.jpg"
+    ]
   },
   {
     "id": "G57",
     "title": "G57",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G57/20210615_102804.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G57/20210615_102804.jpg",
+    "images": [
+      "assets/projects/G57/20210615_102804.jpg",
+      "assets/projects/G57/20210615_102810.jpg",
+      "assets/projects/G57/20210615_102820.jpg",
+      "assets/projects/G57/20210615_102825.jpg",
+      "assets/projects/G57/20210708_145348.jpg",
+      "assets/projects/G57/20210708_145352.jpg",
+      "assets/projects/G57/20210708_145356.jpg"
+    ]
   },
   {
     "id": "g58",
     "title": "G58",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g58/1.jpeg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g58/1.jpeg",
+    "images": [
+      "assets/projects/g58/1.jpeg",
+      "assets/projects/g58/2.jpeg",
+      "assets/projects/g58/3.jpeg",
+      "assets/projects/g58/4.jpeg",
+      "assets/projects/g58/5.jpeg",
+      "assets/projects/g58/6.jpeg",
+      "assets/projects/g58/7.jpeg",
+      "assets/projects/g58/8.jpeg",
+      "assets/projects/g58/9.jpeg"
+    ]
   },
   {
     "id": "g59",
     "title": "G59",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g59/1.jpeg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g59/1.jpeg",
+    "images": [
+      "assets/projects/g59/1.jpeg",
+      "assets/projects/g59/10.jpeg",
+      "assets/projects/g59/11.jpeg",
+      "assets/projects/g59/12.jpeg",
+      "assets/projects/g59/13.jpeg",
+      "assets/projects/g59/2.jpeg",
+      "assets/projects/g59/3.jpeg",
+      "assets/projects/g59/4.jpeg",
+      "assets/projects/g59/5.jpeg",
+      "assets/projects/g59/6.jpeg",
+      "assets/projects/g59/7.jpeg",
+      "assets/projects/g59/8.jpeg",
+      "assets/projects/g59/9.jpeg"
+    ]
   },
   {
     "id": "g60",
     "title": "G60",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g60/1.jpeg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g60/1.jpeg",
+    "images": [
+      "assets/projects/g60/1.jpeg",
+      "assets/projects/g60/10.jpeg",
+      "assets/projects/g60/11.jpeg",
+      "assets/projects/g60/12.jpeg",
+      "assets/projects/g60/13.jpeg",
+      "assets/projects/g60/14.jpeg",
+      "assets/projects/g60/15.jpeg",
+      "assets/projects/g60/16.jpeg",
+      "assets/projects/g60/17.jpeg",
+      "assets/projects/g60/18.jpeg",
+      "assets/projects/g60/19.jpeg",
+      "assets/projects/g60/2.jpeg",
+      "assets/projects/g60/20.jpeg",
+      "assets/projects/g60/21.jpeg",
+      "assets/projects/g60/22.jpeg",
+      "assets/projects/g60/23.jpeg",
+      "assets/projects/g60/24.jpeg",
+      "assets/projects/g60/3.jpeg",
+      "assets/projects/g60/4.jpeg",
+      "assets/projects/g60/5.jpeg",
+      "assets/projects/g60/6.jpeg",
+      "assets/projects/g60/7.jpeg",
+      "assets/projects/g60/8.jpeg",
+      "assets/projects/g60/9.jpeg"
+    ]
   },
   {
     "id": "g61",
     "title": "G61",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g61/1.jpeg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g61/1.jpeg",
+    "images": [
+      "assets/projects/g61/1.jpeg",
+      "assets/projects/g61/10.jpeg",
+      "assets/projects/g61/11.jpeg",
+      "assets/projects/g61/12.jpeg",
+      "assets/projects/g61/13.jpg",
+      "assets/projects/g61/14.jpeg",
+      "assets/projects/g61/15.jpg",
+      "assets/projects/g61/16.jpg",
+      "assets/projects/g61/17.jpg",
+      "assets/projects/g61/18.jpg",
+      "assets/projects/g61/19.jpg",
+      "assets/projects/g61/2.jpeg",
+      "assets/projects/g61/20.jpg",
+      "assets/projects/g61/20221208_160146.jpg",
+      "assets/projects/g61/20221208_160150.jpg",
+      "assets/projects/g61/20221208_160205.jpg",
+      "assets/projects/g61/3.jpeg",
+      "assets/projects/g61/4.jpeg",
+      "assets/projects/g61/5.jpeg",
+      "assets/projects/g61/6.jpeg",
+      "assets/projects/g61/7.jpeg",
+      "assets/projects/g61/8.jpeg",
+      "assets/projects/g61/9.jpeg"
+    ]
   },
   {
     "id": "G63",
     "title": "G63",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/G63/20230529_123639.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/G63/20230529_123639.jpg",
+    "images": [
+      "assets/projects/G63/20230529_123639.jpg",
+      "assets/projects/G63/20230529_123646.jpg",
+      "assets/projects/G63/20230529_123654.jpg",
+      "assets/projects/G63/20230529_123659.jpg",
+      "assets/projects/G63/20230529_123706.jpg",
+      "assets/projects/G63/20230529_123741.jpg",
+      "assets/projects/G63/20230626_141118.jpg",
+      "assets/projects/G63/20230726_141814.jpg"
+    ]
   },
   {
     "id": "g65",
     "title": "G65",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g65/20231005_095055.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g65/20231005_095055.jpg",
+    "images": [
+      "assets/projects/g65/20231005_095055.jpg",
+      "assets/projects/g65/20231005_095102.jpg",
+      "assets/projects/g65/20231005_095130.jpg",
+      "assets/projects/g65/20231005_095136.jpg",
+      "assets/projects/g65/20231005_095149.jpg",
+      "assets/projects/g65/20231005_095202.jpg",
+      "assets/projects/g65/20231005_100640.jpg",
+      "assets/projects/g65/20231005_100648.jpg",
+      "assets/projects/g65/20231005_100651.jpg",
+      "assets/projects/g65/20231005_100713.jpg",
+      "assets/projects/g65/20231005_100723.jpg",
+      "assets/projects/g65/20231005_100730.jpg",
+      "assets/projects/g65/20231005_100742.jpg",
+      "assets/projects/g65/20231005_100751.jpg"
+    ]
   },
   {
     "id": "g66",
     "title": "G66",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g66/2025-10-24 at 19.33.30.jpeg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g66/2025-10-24 at 19.33.30.jpeg",
+    "images": [
+      "assets/projects/g66/2025-10-24 at 19.33.30.jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.37 (1).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.37.jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (1).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (10).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (11).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (12).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (13).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (14).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (2).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (3).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (4).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (5).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (6).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (7).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (8).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40 (9).jpeg",
+      "assets/projects/g66/2025-10-24 at 19.33.40.jpeg"
+    ]
   },
   {
     "id": "g67",
     "title": "G67",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/g67/1.jpg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/g67/1.jpg",
+    "images": [
+      "assets/projects/g67/1.jpg",
+      "assets/projects/g67/11.jpg",
+      "assets/projects/g67/12.jpg",
+      "assets/projects/g67/13.jpg",
+      "assets/projects/g67/2.jpg",
+      "assets/projects/g67/4.jpg",
+      "assets/projects/g67/5.jpg"
+    ]
   },
   {
     "id": "gpr",
     "title": "Gpr",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/gpr/2025-10-24 at 16.13.26 (6).jpeg"
+    "category": "Garden & landscaping",
+    "coverImage": "assets/projects/gpr/2025-10-24 at 16.13.26 (6).jpeg",
+    "images": [
+      "assets/projects/gpr/2025-10-24 at 16.13.26 (6).jpeg",
+      "assets/projects/gpr/2025-10-24 at 16.13.27 (1).jpeg",
+      "assets/projects/gpr/2025-10-24 at 16.13.27 (2).jpeg",
+      "assets/projects/gpr/2025-10-24 at 16.13.27 (3).jpeg",
+      "assets/projects/gpr/2025-10-24 at 16.13.27 (5).jpeg",
+      "assets/projects/gpr/2025-10-24 at 16.13.27 (6).jpeg"
+    ]
   },
   {
     "id": "inside",
     "title": "Inside",
     "category": "Uncategorized",
-    "coverImage": "assets/projects/inside/2025-10-24 at 16.15.21 (1).jpeg"
+    "coverImage": "assets/projects/inside/2025-10-24 at 16.15.21 (1).jpeg",
+    "images": [
+      "assets/projects/inside/2025-10-24 at 16.15.21 (1).jpeg",
+      "assets/projects/inside/2025-10-24 at 16.15.21.jpeg",
+      "assets/projects/inside/2025-10-24 at 16.15.25 (1).jpeg",
+      "assets/projects/inside/2025-10-24 at 16.15.25 (2).jpeg",
+      "assets/projects/inside/2025-10-24 at 16.15.25 (3).jpeg",
+      "assets/projects/inside/2025-10-24 at 16.15.25.jpeg"
+    ]
   },
   {
     "id": "metal-fence",
     "title": "Metal Fence",
     "category": "Uncategorized",
-    "coverImage": "assets/projects/metal-fence/20241031_143846.jpg"
+    "coverImage": "assets/projects/metal-fence/20241031_143846.jpg",
+    "images": [
+      "assets/projects/metal-fence/20241031_143846.jpg",
+      "assets/projects/metal-fence/20241031_143853.jpg",
+      "assets/projects/metal-fence/20241031_143904.jpg",
+      "assets/projects/metal-fence/20241031_143933.jpg",
+      "assets/projects/metal-fence/20241031_143950.jpg"
+    ]
   },
   {
     "id": "pond2",
     "title": "Pond2",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/pond2/2025-10-24 at 19.30.28.jpeg"
+    "category": "Patios & decking",
+    "coverImage": "assets/projects/pond2/2025-10-24 at 19.30.28.jpeg",
+    "images": [
+      "assets/projects/pond2/2025-10-24 at 19.30.28.jpeg",
+      "assets/projects/pond2/2025-10-24 at 19.30.55.jpeg",
+      "assets/projects/pond2/2025-10-24 at 19.31.13.jpeg"
+    ]
   },
   {
     "id": "pond-waterfall",
     "title": "Pond Waterfall",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/pond-waterfall/2025-10-24 at 19.33.35.jpeg"
+    "category": "Patios & decking",
+    "coverImage": "assets/projects/pond-waterfall/2025-10-24 at 19.33.35.jpeg",
+    "images": [
+      "assets/projects/pond-waterfall/2025-10-24 at 19.33.35.jpeg",
+      "assets/projects/pond-waterfall/2025-10-24 at 19.34.18.jpeg",
+      "assets/projects/pond-waterfall/2025-10-24 at 19.34.41.jpeg"
+    ]
   },
   {
     "id": "porch",
     "title": "Porch",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/porch/2025-10-24 at 16.16.02.jpeg"
+    "category": "Patios & decking",
+    "coverImage": "assets/projects/porch/2025-10-24 at 16.16.02.jpeg",
+    "images": [
+      "assets/projects/porch/2025-10-24 at 16.16.02.jpeg",
+      "assets/projects/porch/2025-10-24 at 16.16.03 (1).jpeg",
+      "assets/projects/porch/2025-10-24 at 16.16.03 (2).jpeg",
+      "assets/projects/porch/2025-10-24 at 16.16.03 (3).jpeg",
+      "assets/projects/porch/2025-10-24 at 16.16.03 (4).jpeg",
+      "assets/projects/porch/2025-10-24 at 16.16.03 (5).jpeg",
+      "assets/projects/porch/2025-10-24 at 16.16.03.jpeg"
+    ]
   },
   {
     "id": "porch-floor",
     "title": "Porch Floor",
-    "category": "Uncategorized",
-    "coverImage": "assets/projects/porch-floor/2025-10-24 at 16.15.25 (4).jpeg"
+    "category": "Patios & decking",
+    "coverImage": "assets/projects/porch-floor/2025-10-24 at 16.15.25 (4).jpeg",
+    "images": [
+      "assets/projects/porch-floor/2025-10-24 at 16.15.25 (4).jpeg"
+    ]
   },
   {
     "id": "sleepers2",
     "title": "Sleepers2",
     "category": "Uncategorized",
-    "coverImage": "assets/projects/sleepers2/20230726_141836.jpg"
+    "coverImage": "assets/projects/sleepers2/20230726_141836.jpg",
+    "images": [
+      "assets/projects/sleepers2/20230726_141836.jpg"
+    ]
   },
   {
     "id": "sleepers-flowerbed",
     "title": "Sleepers Flowerbed",
     "category": "Uncategorized",
-    "coverImage": "assets/projects/sleepers-flowerbed/IMG-20230118-WA0000.jpeg"
+    "coverImage": "assets/projects/sleepers-flowerbed/IMG-20230118-WA0000.jpeg",
+    "images": [
+      "assets/projects/sleepers-flowerbed/IMG-20230118-WA0000.jpeg",
+      "assets/projects/sleepers-flowerbed/IMG-20230118-WA0001.jpeg"
+    ]
   },
   {
     "id": "tiles-path",
     "title": "Tiles Path",
     "category": "Uncategorized",
-    "coverImage": "assets/projects/tiles-path/1.jpg"
+    "coverImage": "assets/projects/tiles-path/1.jpg",
+    "images": [
+      "assets/projects/tiles-path/1.jpg",
+      "assets/projects/tiles-path/10.jpg",
+      "assets/projects/tiles-path/11.jpg",
+      "assets/projects/tiles-path/12.jpg",
+      "assets/projects/tiles-path/13.jpg",
+      "assets/projects/tiles-path/14.jpg",
+      "assets/projects/tiles-path/15.jpg",
+      "assets/projects/tiles-path/16.jpg",
+      "assets/projects/tiles-path/2.jpg",
+      "assets/projects/tiles-path/3.jpg",
+      "assets/projects/tiles-path/4.jpg",
+      "assets/projects/tiles-path/5.jpg",
+      "assets/projects/tiles-path/6.jpg",
+      "assets/projects/tiles-path/7.jpg",
+      "assets/projects/tiles-path/8.jpg",
+      "assets/projects/tiles-path/9.jpg"
+    ]
   },
   {
     "id": "venation-fence-on-the-front-driveaway",
     "title": "Venation Fence On The Front Driveaway",
     "category": "Uncategorized",
-    "coverImage": "assets/projects/venation-fence-on-the-front-driveaway/20230418_161844.jpg"
+    "coverImage": "assets/projects/venation-fence-on-the-front-driveaway/20230418_161844.jpg",
+    "images": [
+      "assets/projects/venation-fence-on-the-front-driveaway/20230418_161844.jpg",
+      "assets/projects/venation-fence-on-the-front-driveaway/20230418_161849.jpg"
+    ]
   }
 ]
