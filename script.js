@@ -58,46 +58,39 @@ function applyFilters() {
 }
 
 // 3. RYSOWANIE KAFELKÓW NA OBECNEJ STRONIE —
-function renderGrid() {
-  // zakres elementów na bieżącej stronie
-  const startIndex = (currentPage - 1) * PAGE_SIZE;
-  const endIndex   = startIndex + PAGE_SIZE;
-  const pageItems  = filteredProjects.slice(startIndex, endIndex);
+const cardsHtml = pageItems.map((project, i) => {
+  const title  = project.title || project.id || "Project";
+  const cat    = project.category || "";
+  const imgSrc = project.coverImage || (project.images && project.images[0]) || "";
 
-  // kafelki – data-i do powiązania z danymi + tabindex dla klawiatury
-  const cardsHtml = pageItems.map((project, i) => {
-    const title = project.title || project.id || "Project";
-    const cat   = project.category || "";
-    const imgSrc = project.coverImage || (project.images && project.images[0]) || "";
-
-    return `
-      <div class="project-card" data-i="${i}" tabindex="0">
-        <div class="image-wrap">
-          <img src="${imgSrc}" alt="${title}" loading="lazy" decoding="async"/>
-        </div>
-        <div class="card-bottom">
-          <div class="p-title">${title}</div>
-          <div class="p-cat">${cat}</div>
-        </div>
+  return `
+    <div class="project-card" data-i="${i}" tabindex="0" role="button" aria-label="${title}">
+      <div class="image-wrap">
+        <img src="${imgSrc}" alt="${title}">
       </div>
-    `;
-  }).join("");
+      <div class="card-bottom">
+        <div class="p-title">${title}</div>
+        <div class="p-cat">${cat}</div>
+      </div>
+    </div>
+  `;
+}).join("");
 
-  // wstaw do siatki
-  gridEl.innerHTML = cardsHtml;
+// wstaw do siatki
+gridEl.innerHTML = cardsHtml;
 
-  // ===== PODPIĘCIE MODALA GALERII =====
-  const cards = gridEl.querySelectorAll('.project-card');
-  cards.forEach(card => {
-    const i = Number(card.dataset.i);
-    card.addEventListener('click', () => openGallery(pageItems[i]));
-    card.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        openGallery(pageItems[i]);
-      }
-    });
+// ==== PODPIĘCIE MODAŁA GALERII ====
+const cards = gridEl.querySelectorAll('.project-card');
+cards.forEach(card => {
+  const i = Number(card.dataset.i);
+  card.addEventListener('click', () => openGallery(pageItems[i]));
+  card.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      openGallery(pageItems[i]);
+    }
   });
+});
 
   // paginacja
   renderPagination();
