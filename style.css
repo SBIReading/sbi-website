@@ -648,3 +648,45 @@ h1, h2, h3 {
     width: 100%;
   }
 }
+/* === SIMPLE GALLERY MODAL (SBI) === */
+.sbi-modal { position: fixed; inset: 0; z-index: 9999; font-family: inherit; }
+.sbi-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.65); }
+
+.sbi-dialog {
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(1000px, 92vw);
+  background: #0f1115; color: #fff;
+  border-radius: 14px; padding: 16px 52px; box-shadow: 0 20px 60px rgba(0,0,0,.5);
+}
+
+.sbi-title { font-size: 18px; font-weight: 600; margin: 0 0 10px; opacity: .9; }
+
+.sbi-main {
+  display: block; width: 100%; max-height: 65vh; object-fit: contain;
+  border-radius: 10px;
+}
+
+.sbi-thumbs { display: flex; gap: 8px; margin-top: 12px; overflow: auto; padding-bottom: 4px; }
+.sbi-thumb { height: 70px; border-radius: 8px; opacity: .75; cursor: pointer; transition: .15s; }
+.sbi-thumb:hover { opacity: 1; transform: translateY(-1px); }
+.sbi-thumb.active { outline: 2px solid #fff; opacity: 1; }
+
+.sbi-nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 42px; height: 42px; border-radius: 50%;
+  background: rgba(255,255,255,.1); border: 0; color: #fff; font-size: 28px;
+  display: grid; place-items: center; cursor: pointer;
+}
+.sbi-prev { left: 6px; } .sbi-next { right: 6px; }
+
+.sbi-close {
+  position: absolute; right: 10px; top: 10px;
+  width: 34px; height: 34px; border-radius: 10px;
+  background: rgba(255,255,255,.12); border: 0; color:#fff; font-size: 20px; cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .sbi-dialog { padding: 12px 44px; }
+  .sbi-thumb { height: 56px; }
+}

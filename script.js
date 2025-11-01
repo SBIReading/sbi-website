@@ -57,21 +57,21 @@ function applyFilters() {
   renderPage();
 }
 
-// --- 3. RYSOWANIE KAFELKÓW NA OBECNEJ STRONIE ---
+// 3. RYSOWANIE KAFELKÓW NA OBECNEJ STRONIE —
 function renderGrid() {
   // oblicz zakres elementów dla tej strony
   const startIndex = (currentPage - 1) * PAGE_SIZE;
-  const endIndex = startIndex + PAGE_SIZE;
-  const pageItems = filteredProjects.slice(startIndex, endIndex);
+  const endIndex   = startIndex + PAGE_SIZE;
+  const pageItems  = filteredProjects.slice(startIndex, endIndex);
 
   // budujemy HTML kafelków
-  const cardsHtml = pageItems.map(project => {
-    const title = project.id || project.title || "Project";
-    const cat = project.category || "";
+  const cardsHtml = pageItems.map((project, i) => {
+    const title  = project.title || project.id || "Project";   // <— NAJPIERW title
+    const cat    = project.category || "";
     const imgSrc = project.coverImage || (project.images && project.images[0]) || "";
 
     return `
-      <div class="project-card">
+      <div class="project-card" data-i="${i}">
         <div class="image-wrap">
           <img src="${imgSrc}" alt="${title}" />
         </div>
@@ -85,6 +85,16 @@ function renderGrid() {
 
   // wstaw do siatki
   gridEl.innerHTML = cardsHtml || `<p style="color:#fff;">No projects found.</p>`;
+
+  // podłącz kliknięcia -> otwarcie modala z galerią
+  gridEl.querySelectorAll(".project-card").forEach(card => {
+    const i = Number(card.dataset.i);
+    const p = pageItems[i];
+    card.addEventListener("click", () => openGallery(p));
+  });
+
+  // (jeśli masz) odśwież paginację
+  if (typeof renderPagination === "function") renderPagination();
 }
 
 // --- 4. PAGINACJA (PRZYCISKI 1,2,3...) ---
@@ -171,3 +181,53 @@ loadProjects();
     a.href = `https://wa.me/447737883907?text=${encoded}`;
   });
 })();
+// ==== SIMPLE GALLERY MODAL (SBI) ====
+function openGallery(p) {
+  const gallery = (Array.isArray(p.images) && p.images.length) ? p.images : [p.coverImage];
+  let idx = 0;
+
+  const el = document.createElement('div');
+  el.className = 'sbi-modal';
+  el.innerHTML = `
+    <div class="sbi-backdrop" data-close="1"></div>
+    <div class="sbi-dialog" role="dialog" aria-modal="true">
+      <button class="sbi-close" aria-label="Close">×</button>
+      <div class="sbi-title">${p.title || p.id || ''}</div>
+      <button class="sbi-nav sbi-prev" aria-label="Previous">‹</button>
+      <img class="sbi-main" src="${gallery[0]}" alt="">
+      <button class="sbi-nav sbi-next" aria-label="Next">›</button>
+      <div class="sbi-thumbs">
+        ${gallery.map((src,i)=>`<img class="sbi-thumb ${i===0?'active':''}" data-i="${i}" src="${src}" alt="">`).join('')}
+      </div>
+    </div>
+  `;
+  document.body.appendChild(el);
+
+  const main   = el.querySelector('.sbi-main');
+  const prev   = el.querySelector('.sbi-prev');
+  const next   = el.querySelector('.sbi-next');
+  const closeB = el.querySelector('.sbi-close');
+  const back   = el.querySelector('[data-close]');
+  const thumbs = [...el.querySelectorAll('.sbi-thumb')];
+
+  function set(i){
+    idx = (i + gallery.length) % gallery.length;
+    main.src = gallery[idx];
+    thumbs.forEach(t => t.classList.toggle('active', Number(t.dataset.i) === idx));
+  }
+  function destroy(){
+    document.removeEventListener('keydown', onKey);
+    el.remove();
+  }
+  function onKey(e){
+    if (e.key === 'Escape') destroy();
+    else if (e.key === 'ArrowLeft') set(idx - 1);
+    else if (e.key === 'ArrowRight') set(idx + 1);
+  }
+
+  prev.onclick = () => set(idx - 1);
+  next.onclick = () => set(idx + 1);
+  closeB.onclick = back.onclick = destroy;
+  thumbs.forEach(t => t.onclick = () => set(Number(t.dataset.i)));
+  document.addEventListener('keydown', onKey);
+}
