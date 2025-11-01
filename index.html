@@ -214,15 +214,13 @@
   </div>
 </footer>
 
-  <script src="script.js"></script>
-  <script>
-    // aktualizujemy rok w stopce
-    document.getElementById("yearNow").textContent = new Date().getFullYear();
-  </script>
-<<<<<<< HEAD
-  <!-- deploy bump --></body>
-</html>
-=======
+ <script src="script.js" defer></script>
+<script>
+  // aktualizujemy rok w stopce – bez błędu gdy brak elementu
+  (function () {
+    var el = document.getElementById('yearNow');
+    if (el) el.textContent = new Date().getFullYear();
+  })();
+</script>
 </body>
 </html>
->>>>>>> d085f19 (Initial website)
