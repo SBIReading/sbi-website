@@ -1,56 +1,71 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# Generator assets/projects/projects.json
+# Skanuje katalogi w assets/projects/* i tworzy listę obiektów na stronę
+
 import os, json, re
 
 ROOT = "assets/projects"
-OUT = os.path.join(ROOT, "projects.json")
+OUT_PATH = os.path.join(ROOT, "projects.json")
 IMG_EXTS = (".jpg", ".jpeg", ".png", ".webp", ".gif", ".bmp")
 
-def titleize(s: str) -> str:
-    s = s.replace("-", " ").replace("_", " ").strip()
+def nice_title(pid: str) -> str:
+    """
+    G1 -> Garden 1, F3 -> Fence 3, P12 -> Patio 12, B7 -> Bathroom 7
+    Inaczej: zamiana - i _ na spacje + kapitalizacja.
+    """
+    m = re.fullmatch(r"([A-Za-z])(\d+)", pid)
+    if m:
+        letter, num = m.group(1).upper(), m.group(2)
+        prefix = {"G": "Garden", "F": "Fence", "P": "Patio", "B": "Bathroom"}.get(letter, letter)
+        return f"{prefix} {num}"
+    s = pid.replace("-", " ").replace("_", " ").strip()
     return " ".join(w.capitalize() for w in s.split())
 
+def category_from_prefix(pid: str) -> str:
+    letter = pid[:1].upper() if pid else ""
+    return {
+        "F": "Fencing & gates",
+        "P": "Patios & decking",
+        "B": "Inside tiling & interior renovations",
+        "G": "Garden",
+    }.get(letter, "Uncategorized")
+
 def natural_key(s: str):
+    # sortowanie naturalne: G1,G2,G10…; dla plików również
     return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", s)]
 
-CATEGORY_MAP = {
-    "F": "Fencing & gates",
-    "P": "Patios & decking",
-    "B": "Inside tiling & interior renovations",
-    "G": "Garden & landscaping",
-}
-
 items = []
+
 if not os.path.isdir(ROOT):
-    raise SystemExit(f"Missing {ROOT}")
+    raise SystemExit(f"Brak katalogu: {ROOT}")
 
 for name in sorted(os.listdir(ROOT), key=natural_key):
     path = os.path.join(ROOT, name)
-    if not os.path.isdir(path): 
+    if not os.path.isdir(path):
         continue
     if name.startswith(".") or name in ("assets_full", "projects.json"):
         continue
 
-    files = [f for f in os.listdir(path) if f.lower().endswith(IMG_EXTS)]
-    if not files:
+    # zbierz obrazki w projekcie (pełna galeria)
+    imgs = [f for f in os.listdir(path) if f.lower().endswith(IMG_EXTS)]
+    imgs.sort(key=natural_key)
+    if not imgs:
         continue
 
-    # preferuj cover.*
-    cover_candidates = [f for f in files if os.path.splitext(f)[0].lower() == "cover"]
-    cover = sorted(cover_candidates, key=str.lower)[0] if cover_candidates else sorted(files, key=str.lower)[0]
-
-    cat = CATEGORY_MAP.get(name[0].upper(), "Uncategorized")
-    images = [f"{ROOT}/{name}/{fn}" for fn in sorted(files, key=str.lower)]
+    cover = f"{ROOT}/{name}/{imgs[0]}"
+    images = [f"{ROOT}/{name}/{f}" for f in imgs]
 
     items.append({
         "id": name,
-        "title": titleize(name),
-        "category": cat,
-        "coverImage": f"{ROOT}/{name}/{cover}",
-        "images": images
+        "title": nice_title(name),
+        "category": category_from_prefix(name),
+        "coverImage": cover,
+        "images": images,
+        "tags": []
     })
 
-with open(OUT, "w", encoding="utf-8") as f:
+with open(OUT_PATH, "w", encoding="utf-8") as f:
     json.dump(items, f, ensure_ascii=False, indent=2)
 
-print(f"Saved {len(items)} entries -> {OUT}")
+print(f"Wygenerowano {len(items)} wpisów -> {OUT_PATH}")
