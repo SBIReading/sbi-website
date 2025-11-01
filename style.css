@@ -690,3 +690,4 @@ h1, h2, h3 {
   .sbi-dialog { padding: 12px 44px; }
   .sbi-thumb { height: 56px; }
 }
+.project-card { cursor: pointer; }

@@ -59,21 +59,21 @@ function applyFilters() {
 
 // 3. RYSOWANIE KAFELKÓW NA OBECNEJ STRONIE —
 function renderGrid() {
-  // oblicz zakres elementów dla tej strony
+  // zakres elementów na bieżącej stronie
   const startIndex = (currentPage - 1) * PAGE_SIZE;
   const endIndex   = startIndex + PAGE_SIZE;
   const pageItems  = filteredProjects.slice(startIndex, endIndex);
 
-  // budujemy HTML kafelków
+  // kafelki – data-i do powiązania z danymi + tabindex dla klawiatury
   const cardsHtml = pageItems.map((project, i) => {
-    const title  = project.title || project.id || "Project";   // <— NAJPIERW title
-    const cat    = project.category || "";
+    const title = project.title || project.id || "Project";
+    const cat   = project.category || "";
     const imgSrc = project.coverImage || (project.images && project.images[0]) || "";
 
     return `
-      <div class="project-card" data-i="${i}">
+      <div class="project-card" data-i="${i}" tabindex="0">
         <div class="image-wrap">
-          <img src="${imgSrc}" alt="${title}" />
+          <img src="${imgSrc}" alt="${title}" loading="lazy" decoding="async"/>
         </div>
         <div class="card-bottom">
           <div class="p-title">${title}</div>
@@ -84,17 +84,23 @@ function renderGrid() {
   }).join("");
 
   // wstaw do siatki
-  gridEl.innerHTML = cardsHtml || `<p style="color:#fff;">No projects found.</p>`;
+  gridEl.innerHTML = cardsHtml;
 
-  // podłącz kliknięcia -> otwarcie modala z galerią
-  gridEl.querySelectorAll(".project-card").forEach(card => {
+  // ===== PODPIĘCIE MODALA GALERII =====
+  const cards = gridEl.querySelectorAll('.project-card');
+  cards.forEach(card => {
     const i = Number(card.dataset.i);
-    const p = pageItems[i];
-    card.addEventListener("click", () => openGallery(p));
+    card.addEventListener('click', () => openGallery(pageItems[i]));
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openGallery(pageItems[i]);
+      }
+    });
   });
 
-  // (jeśli masz) odśwież paginację
-  if (typeof renderPagination === "function") renderPagination();
+  // paginacja
+  renderPagination();
 }
 
 // --- 4. PAGINACJA (PRZYCISKI 1,2,3...) ---
