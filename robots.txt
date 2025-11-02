@@ -1,0 +1,6 @@
+# robots.txt for Smart Builders Innovation
+User-agent: *
+Allow: /
+
+# Dodasz poniższą linię, gdy będziesz mieć sitemapę:
+# Sitemap: https://smartbuildersinnovation.co.uk/sitemap.xml
