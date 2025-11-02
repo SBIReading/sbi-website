@@ -71,16 +71,16 @@ function renderGrid() {
     const imgSrc = p.coverImage || (p.images && p.images[0]) || "";
 
     return `
-      <div class="project-card" tabindex="0" data-i="${i}">
-        <div class="image-wrap">
-          <img src="${imgSrc}" alt="${title}" />
-        </div>
-        <div class="card-bottom">
-          <div class="p-title">${title}</div>
-          <div class="p-cat">${cat}</div>
-        </div>
-      </div>
-    `;
+  <div class="project-card" tabindex="0" data-i="${i}">
+    <div class="image-wrap">
+      <img src="${imgSrc}" alt="${title}" loading="lazy" decoding="async" />
+    </div>
+    <div class="card-bottom">
+      <div class="p-title">${title}</div>
+      <div class="p-cat">${cat}</div>
+    </div>
+  </div>
+`;
   }).join("");
 
   // wstaw do siatki
