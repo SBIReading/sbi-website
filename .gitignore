@@ -7,3 +7,5 @@
 assets_full/
 .DS_Store
 
+assets_full/
+**/.DS_Store
